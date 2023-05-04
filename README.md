@@ -1,0 +1,1 @@
+# alexa-shopping-memo-skill-example
