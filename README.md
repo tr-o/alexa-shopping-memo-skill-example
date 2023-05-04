@@ -60,8 +60,6 @@ style P fill:#ccf,stroke:#333,stroke-width:2px
 style Q fill:#ccf,stroke:#333,stroke-width:2px
 ```
 
-
-
 # lambda function
 
 `lambda_function.py` code defines the behavior of your Alexa skill using the ASK SDK. Here's a step-by-step explanation of what happens in the code:
@@ -83,8 +81,6 @@ style Q fill:#ccf,stroke:#333,stroke-width:2px
 8. Finally, create a Lambda handler (`lambda_handler`) by calling `sb.lambda_handler()`. This handler is used by AWS Lambda to invoke your skill.
 
 
-```
-
 # Interaction Model
 `ja-JP.json` file defines the interaction model for your Alexa skill in Japanese. The interaction model contains the following elements:
 
@@ -104,6 +100,14 @@ style Q fill:#ccf,stroke:#333,stroke-width:2px
 
 - `version`: The version number of your interaction model. In this case, it's "25".
 
+# Project Structure
+
+The project consists of the following main components:
+
+- `lambda/lambda_function.py`: The main Lambda function containing the skill's logic and handlers.
+- `lambda/requirements.txt`: A list of Python dependencies for the Lambda function.
+- `interactionModels/custom/ja-JP.json`: The interaction model for the skill in Japanese.
+
 # Installation
 
 1. Clone the repository:
@@ -119,16 +123,6 @@ style Q fill:#ccf,stroke:#333,stroke-width:2px
 # Usage
 
 To use the skill, invoke it on your Alexa-enabled device by saying "アレクサ、買い物メモを開いて" (Open Shopping Memo). Then, you can add items to your LINE account by saying the item's name.
-
-# Project Structure
-
-The project consists of the following main components:
-
-- `lambda/lambda_function.py`: The main Lambda function containing the skill's logic and handlers.
-- `lambda/requirements.txt`: A list of Python dependencies for the Lambda function.
-- `interactionModels/custom/ja-JP.json`: The interaction model for the skill in Japanese.
-
-
 
 # License
 
