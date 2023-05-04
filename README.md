@@ -108,12 +108,7 @@ The project consists of the following main components:
 
 # Installation
 
-1. Clone the repository:
-
-   ``
-   git clone https://github.com/yourusername/shopping-memo.git
-   ``
-
+1. Clone the repository.
 2. Install dependencies by uploading files to alexa skill developer console.
 3. Deploy and build your code to the Lambda function.
 4. Enable the skill on your Alexa-enabled device and test it.
@@ -123,5 +118,5 @@ The project consists of the following main components:
 To use the skill, invoke it on your Alexa-enabled device by saying "アレクサ、買い物メモを開いて" (Open Shopping Memo). Then, you can add items to your LINE account by saying the item's name.
 
 # License
-
+This code is inspired by skill-sample-python-colorpicker[https://github.com/alexa-samples/skill-sample-python-colorpicker]
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
