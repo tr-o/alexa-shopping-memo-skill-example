@@ -5,9 +5,7 @@
 # Table of Contents
 
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Flowchart](#flowchart)
@@ -60,7 +58,7 @@ style P fill:#ccf,stroke:#333,stroke-width:2px
 style Q fill:#ccf,stroke:#333,stroke-width:2px
 ```
 
-# lambda function
+# Lambda Function
 
 `lambda_function.py` code defines the behavior of your Alexa skill using the ASK SDK. Here's a step-by-step explanation of what happens in the code:
 
