@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "買い物メモ",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MyShoppingMemoIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "AMAZON.Actor"
+            }
+          ],
+          "samples": [
+            "{Item}",
+            "I want to buy {Item}",
+            "Add {Item} to my shopping list",
+            "I need to buy {Item}",
+            "Please remember to buy {Item}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "25"
+}
