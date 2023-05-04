@@ -5,10 +5,10 @@
 # Table of Contents
 
 - [Features](#features)
+- [Flowchart](#flowchart)
+- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Flowchart](#flowchart)
 - [License](#license)
 
 # Features
@@ -118,5 +118,5 @@ The project consists of the following main components:
 To use the skill, invoke it on your Alexa-enabled device by saying "アレクサ、買い物メモを開いて" (Open Shopping Memo). Then, you can add items to your LINE account by saying the item's name.
 
 # License
-This code is inspired by skill-sample-python-colorpicker[https://github.com/alexa-samples/skill-sample-python-colorpicker]
+This code is inspired by [Build An Alexa Color Picker Skill using ASK Python SDK](https://github.com/alexa-samples/skill-sample-python-colorpicker)
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
